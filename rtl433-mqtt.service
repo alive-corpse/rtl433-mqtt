@@ -1,0 +1,14 @@
+[Unit]
+Description=RTL433 to MQTT service
+Requires=network.target
+
+[Service]
+ExecStart=/opt/rtl433-mqtt/rtl433-mqtt
+ExecStop=/usr/bin/killall rtl433-mqtt
+WorkingDirectory=/opt/rtl433-mqtt
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
+

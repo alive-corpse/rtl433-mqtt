@@ -1,0 +1,7 @@
+#!/bin/sh
+cd `dirname "$0"`
+
+[ -n "$(which deactivate)" ] && deactivate
+. venv/bin/activate
+cd src
+python3 rtl433-mqtt.py --dry-run=false

@@ -1,0 +1,12 @@
+rtl433mqtt:
+    timegap: 1
+    blacklist:
+        - "/rtl433/Akhan-100F14/30250/0x"
+        - "/rtl433/Smoke-GS558/25388/unit_9"
+mqtt:
+    host: localhost
+    port: 1883
+    user: username
+    pass: password
+    statperiod: 60
+    haintegration: True

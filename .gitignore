@@ -1,0 +1,6 @@
+*.swp
+*.swo
+src/config.yml
+rtl-tcp.sh
+venv
+backup
