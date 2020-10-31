@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Simple wrapping script for translate RF433 switches
 # clicks to the MQTT with optional integration with Home Assistant
-# by Evgeniy Shumilov <eshumilov@awardwallet.com>
+# by Evgeniy Shumilov <evgeniy.shumilov@gmail.com>
 
 import os
 import sys
